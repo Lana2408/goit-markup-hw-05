@@ -126,6 +126,10 @@ img {
     transition: color var(--transition-property);
 }
 
+.nav-bar-link.active {
+    color: var(--hover-color);
+}
+
 .nav-bar-link::after {
     position: absolute;
     bottom: -1px;
@@ -648,7 +652,7 @@ img {
 
 .modal-close-icon-btn {
     fill: var(--dark-color);
-    transition: background-color var(--transition-property);
+    transition: fill var(--transition-property);
 
 }
 
